@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/updat"
+        android:enabled="true"
+        android:title="Refresh"
+        android:icon="@drawable/refresh"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/atur"
+        android:enabled="true"
+        android:title="Settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:visible="true">
+    </item>
+
+</menu>

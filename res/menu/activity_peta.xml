@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/satelit"
+        android:checkable="false"
+        android:icon="@drawable/traffic"
+        android:title="Traffic"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/trafik"
+        android:icon="@drawable/satelit"
+        android:title="Satelite"
+        android:visible="true">
+    </item>
+
+</menu>

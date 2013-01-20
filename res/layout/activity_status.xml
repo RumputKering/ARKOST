@@ -1,0 +1,84 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lokasi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="ARKOST"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="v.1.0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="93dp"
+        android:text="Status Anda :"
+        tools:context=".Search" />
+
+    <TextView
+        android:id="@+id/lGps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="GPS = Aktif"
+        tools:context=".Search" />
+
+    <TextView
+        android:id="@+id/lLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Latitude = "
+        tools:context=".Search" />
+
+    <TextView
+        android:id="@+id/lLon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Longitude = "
+        tools:context=".Search" />
+
+    <TextView
+        android:id="@+id/lLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.00"
+        android:text="Lokasi ="
+        tools:context=".Search" />
+
+    <LinearLayout
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lTips"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Tips "
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</LinearLayout>

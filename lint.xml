@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res\layout\list_details.xml" />
+        <ignore path="res\layout\main.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res\layout\list_data.xml" />
+        <ignore path="res\layout\list_details.xml" />
+        <ignore path="res\layout\main.xml" />
+    </issue>
+    <issue id="UnknownIdInLayout">
+        <ignore path="res\layout\list_details.xml" />
+        <ignore path="res\layout\main.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res\layout\list_details.xml" />
+    </issue>
+</lint>
